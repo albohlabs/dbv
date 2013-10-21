@@ -65,7 +65,7 @@
 
             data.action = this.getAttribute('data-role');
 
-            new Ajax.Request('index.php?a=schema', {
+            new Ajax.Request('<?= DBV_SUB_DIR ?>index.php?a=schema', {
                 parameters: data,
                 onSuccess: function (transport) {
                     form.enable();

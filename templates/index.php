@@ -7,28 +7,28 @@
 	<meta name="robots" content="noindex,nofollow" />
 	<meta name="author" content="Victor Stanciu - http://victorstanciu.ro" />
 
-	<link rel="stylesheet" type="text/css" media="screen" href="public/stylesheets/dbv.css" />
-	<link rel="stylesheet" type="text/css" media="screen" href="public/stylesheets/codemirror.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/public/stylesheets/dbv.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/public/stylesheets/codemirror.css" />
 
 	<script type="text/javascript">
 		var APP = {};
 	</script>
 
-	<script type="text/javascript" src="public/scripts/prototype.js"></script>
-	<script type="text/javascript" src="public/scripts/builder.js"></script>
-	<script type="text/javascript" src="public/scripts/effects.js"></script>
+	<script type="text/javascript" src="/public/scripts/prototype.js"></script>
+	<script type="text/javascript" src="/public/scripts/builder.js"></script>
+	<script type="text/javascript" src="/public/scripts/effects.js"></script>
 
-	<script type="text/javascript" src="public/scripts/codemirror/codemirror.js"></script>
-	<script type="text/javascript" src="public/scripts/codemirror/mode/mysql.js"></script>
-	<script type="text/javascript" src="public/scripts/codemirror/mode/php.js"></script>
+	<script type="text/javascript" src="/public/scripts/codemirror/codemirror.js"></script>
+	<script type="text/javascript" src="/public/scripts/codemirror/mode/mysql.js"></script>
+	<script type="text/javascript" src="/public/scripts/codemirror/mode/php.js"></script>
 
-	<script type="text/javascript" src="public/scripts/dbv.js"></script>
+	<script type="text/javascript" src="/public/scripts/dbv.js"></script>
 </head>
 <body>
 	<div class="navbar navbar-static-top navbar-inverse">
 		<div class="navbar-inner">
 			<div class="container">
-				<a href="index.php" class="brand">dbv<span>.php</span></a>
+				<a href="<?= DBV_SUB_DIR ?>index.php" class="brand">dbv<span>.php</span></a>
 				<ul class="nav pull-right">
 					<li><a href="http://dbv.vizuina.com"><?php echo __('Check for updates'); ?></a></li>
 				</ul>

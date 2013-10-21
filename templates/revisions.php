@@ -109,7 +109,7 @@
 
 			clear_messages(container);
 
-			new Ajax.Request('index.php?a=saveRevisionFile', {
+			new Ajax.Request('<?= DBV_SUB_DIR ?>index.php?a=saveRevisionFile', {
 				parameters: {
 					revision: this.getAttribute('data-revision'),
 					file: this.getAttribute('data-file'),
@@ -144,7 +144,7 @@
 
 			form.disable();
 
-			new Ajax.Request('index.php?a=revisions', {
+			new Ajax.Request('<?= DBV_SUB_DIR ?>index.php?a=revisions', {
 				parameters: {
 					"revisions[]": data['revisions[]']
 				},
